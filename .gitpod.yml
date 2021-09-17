@@ -1,0 +1,8 @@
+image:
+  file: .gitpod.Dockerfile
+tasks:
+  - command: flutter config --no-enable-android --no-enable-ios --enable-web ; flutter pub get
+vscode:
+  extensions:
+    - dart-code.dart-code
+    - dart-code.flutter
